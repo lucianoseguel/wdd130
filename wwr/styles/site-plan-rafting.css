@@ -9,6 +9,7 @@ html{ /* Background general color */
 
 p{
     color: antiquewhite;
+    max-width: 840px;
 }
 
 nav {
@@ -24,9 +25,32 @@ nav a {
 
 }
 
-h1,h2 {
+h1{
+    text-align: center;
+}
+
+h1,h2,h3,h4 {
     
     font-family: sans-serif;
     display:block;
     
+}
+
+main {
+    margin: 1em;
+}
+
+ul {
+    display: inline-block;
+    text-align:justify;
+    margin: 1px;
+}
+
+li{
+    margin: 0 0 0 0;
+}
+
+main img {
+    width: 200px;
+    height: auto;
 }
