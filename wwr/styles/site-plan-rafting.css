@@ -1,12 +1,32 @@
-*{
+*{ /* Applies to all scritps */
     color: white;
     
 }
 
-html{
+html{ /* Background general color */
         background-color: #00264e;
 }
 
 p{
     color: antiquewhite;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: inline;
+    padding: 10px;
+    font-family: sans-serif;
+
+}
+
+h1,h2 {
+    
+    font-family: sans-serif;
+    display:block;
+    
 }

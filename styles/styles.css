@@ -57,17 +57,20 @@ aside img {
     height: auto;
     margin: 0 0em 1em 1em;
     float: right;
+    display:grid;
+    padding: 2px;
+    display: block;
+    border: 1px solid steelblue;
 
     
 }
 
 aside {
     width: 840px;
-    margin: 2em 1em 1em 0;
-    
+    margin: 2em 1em 1em 0;    
     margin: 3em 0 0 0;
+    display: inline;
     
-    display: block;
 }
 
 footer {
@@ -75,4 +78,4 @@ footer {
     border-top: 1px solid white;
     text-align: center;
     display: block;
-  }
+}
