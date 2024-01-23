@@ -66,15 +66,15 @@ aside img {
 }
 
 aside {
-    width: 840px;
+    max-width: 840px;
     margin: 2em 1em 1em 0;    
     margin: 3em 0 0 0;
-    display: inline;
+    display: block;
     
 }
 
 footer {
-    margin-top: 5rem;
+    margin-top: 7rem;
     border-top: 1px solid white;
     text-align: center;
     display: block;
