@@ -1,10 +1,17 @@
+:root{
+    --primary-color : #4682b4;
+    --secondary-color : #00264e;
+   
+}
+
 *{ /* Applies to all scritps */
     color: white;
+    font-family:Arial
     
 }
 
 html{ /* Background general color */
-        background-color: #00264e;
+        background-color: var(--secondary-color);
 }
 
 p{
@@ -13,7 +20,7 @@ p{
 }
 
 nav {
-    background-color: steelblue;
+    background-color: #4682b4;
     padding: 10px;
 }
 
@@ -54,4 +61,12 @@ main img {
     max-width: 250px;
     height: auto;
     display: block;
+}
+.colored{
+color: #b8efff;
+
+}
+div {
+    display:inline-table;
+    margin-right: 5rem;
 }
