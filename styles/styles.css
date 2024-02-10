@@ -1,7 +1,7 @@
 
 *{
 color: white;
-margin: 0;
+margin: 1em;
 padding: 0;
 box-sizing: border-box;
 
@@ -15,7 +15,7 @@ html{
 
 .box {
     margin: 1rem;
-    
+    clear:right;
     padding: 1rem;
     background-color:#001f41;
     color: #000;
@@ -34,10 +34,10 @@ nav a {
 
 }
 
-h1,h2 {
+h1 h2 {
     
     font-family: sans-serif;
-    display:block;
+   
     
 }
 
@@ -45,11 +45,11 @@ main img{
     width: 150px;
     float: right;
     height: auto;
-    border: 1px solid steelblue;
-    margin: 0em 1em 0em 1em ;
+    
+    
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    display: block;
+    
 }
 
 p {
@@ -79,14 +79,7 @@ aside img {
     
 }
 
-aside {
-    max-width: 840px;
-    
-    display: block;
-    text-align: center;
-    position: relative;
-    
-}
+
 
 
 div {
@@ -100,9 +93,14 @@ footer {
     margin-top: 7rem;
     border-top: 1px solid white;
     text-align: center;
-    display: block;
+    display:flow-root;
+    clear: right;
 }
 
-aside,h2 {
-    position: absolute;
+aside h2 {
+    
+    display:inline-block;
+    clear: right;
+    
+    
 }
