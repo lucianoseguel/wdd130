@@ -5,7 +5,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 
-
+/* All settings*/
 }
 html{
     background-color: #00264e;
@@ -101,4 +101,8 @@ footer {
     border-top: 1px solid white;
     text-align: center;
     display: block;
+}
+
+aside,h2 {
+    position: absolute;
 }
