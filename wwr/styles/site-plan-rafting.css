@@ -22,13 +22,15 @@ p {
 nav {
     background-color: #4682b4;
     padding: 10px;
+    
 }
 
 nav a {
     color: white;
     display: inline;
-    padding: 10px;
+    padding: 20px;
     font-family: sans-serif;
+   
 
 }
 
