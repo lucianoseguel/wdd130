@@ -1,7 +1,9 @@
 
 *{
 color: white;
-
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 
 
 }
@@ -10,6 +12,14 @@ html{
     
    
 }
+
+.box {
+    margin: 1rem;
+    
+    padding: 1rem;
+    background-color:#001f41;
+    color: #000;
+  }
 
 nav {
     background-color: steelblue;
@@ -33,7 +43,7 @@ h1,h2 {
 
 img{
     width: 150px;
-    float: left;
+    float: right;
     height: auto;
     border: 1px solid steelblue;
     margin: 0em 1em 0em 1em ;
@@ -59,22 +69,31 @@ aside img {
     
     width: 200px;
     height: auto;
-    margin: 0 0em 1em 1em;
+    
     float: right;
-    display:grid;
-    padding: 2px;
+    
+   
     display: block;
-    border: 1px solid steelblue;
+    
 
     
 }
 
 aside {
     max-width: 840px;
-    margin: 2em 1em 1em 0;    
-    margin: 3em 0 0 0;
-    display: block;
     
+    display: block;
+    text-align: center;
+    position: relative;
+    
+}
+
+
+div {
+    clear: both;
+   
+
+    margin-top: 5em;
 }
 
 footer {
