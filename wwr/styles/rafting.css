@@ -76,9 +76,9 @@ header img{
     font-size: 20px;
     position: absolute;
     padding: 10px;
-    top: 75%;
-    transform: translate(-50%,-50%);
-    left: 50%;
+    
+    
+    margin-top: -50%;
     border: 2px; 
     border-radius: 15px;
     clear: both;
@@ -93,12 +93,12 @@ section{
     margin-bottom: 5rem;
 }
 section img{
-    display:inline-block;
+    display:block;
     max-width: 70%;
     height: auto;
     align-items: center;
     position: relative; 
-    float: left;
+    float: none;
 }
 
 footer {
