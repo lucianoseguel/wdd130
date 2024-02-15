@@ -1,13 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nanum+Gothic&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root{
     --primary_color--: #00264E;
-    --secondary_color--: #113964;
+    --secondary_color--: rgb(17, 57, 100);
     --ancent_color--: #3F77A8;
     --soft_color--: #6FA6CD;
     --Font--: 'Roboto', sans-serif;
-    --Title_font--:'"Inter", sans-serif'
+    --Title_font--:'"Inter", sans-serif';
+    --h1_font-- : 
 
 }
 
@@ -17,10 +19,10 @@
     color: white;
     font-family: var(--Font--) ;
     text-decoration: none;
-    
+    box-sizing: border-box;
 }
 
-nav {
+.nav1 {
     display: flex;
     align-items: center;
     
@@ -37,28 +39,50 @@ header img{
 
 .hero{
     text-align: center;
-   
-    box-sizing: border-box;
     
+    box-sizing:border-box;
     
 }
 
 .hero img {
     display: block;
-    width: 80%;
+    width: 100%;
     height: auto;
+    
     position: relative;
+    align-items: center;
     margin: 0;
     padding: 0;
-    float: left;
+    
+    
+    
   }
 
+.hero h1 {
+   
+    display: block;
+    overflow: visible;
+    font-family: "Nanum Gothic", sans-serif;
+    background-color: var(--ancent_color--);
+    font-size: 3rem;
+    margin: 0;
+    padding:20px;
+
+}
+
 .hero p {
-    position:absolute;
+    
     text-align: center;
-    clear: both;
+    font-size: 20px;
+    position: absolute;
+    padding: 10px;
+    top: 75%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    border: 2px; 
+    border-radius: 15px;
     
-    
+    background-color: rgba(17, 57, 100,0.8);
 
 }
 
@@ -69,9 +93,22 @@ section{
 }
 section img{
     display: block;
-    max-width: 75%;
+    max-width: 600px;
     height: auto;
     align-items: center;
     position:relative;
-    
+    clear: both;
 }
+
+footer {
+text-align: center;
+
+}
+
+footer img{
+    
+    align-items: center;
+    right: 50%;
+    max-width: 20px;
+    
+    }
