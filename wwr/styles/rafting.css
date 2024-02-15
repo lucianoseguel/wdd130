@@ -81,7 +81,7 @@ header img{
     left: 50%;
     border: 2px; 
     border-radius: 15px;
-    
+    clear: both;
     background-color: rgba(17, 57, 100,0.8);
 
 }
@@ -93,11 +93,11 @@ section{
 }
 section img{
     display: block;
-    max-width: 600px;
+    max-width: 500px;
     height: auto;
     align-items: center;
-    position:relative;
-    clear: both;
+   
+    
 }
 
 footer {
