@@ -92,12 +92,12 @@ section{
     clear: both;
 }
 section img{
-    display: block;
-    max-width: 500px;
+    display: flex;
+    max-width: 70%;
     height: auto;
     align-items: center;
     position: relative;
-   
+    
     
 }
 
