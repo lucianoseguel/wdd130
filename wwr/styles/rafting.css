@@ -17,49 +17,61 @@
     color: white;
     font-family: var(--Font--) ;
     text-decoration: none;
+    
 }
 
 nav {
     display: flex;
     align-items: center;
-    text-align: left;
+    
   }
 
 
 
 header img{
-    width: 10%;
+    width: 50px;
     height: auto;
+    margin: 1em;
+    
 }
 
-
+.hero{
+    text-align: center;
+   
+    box-sizing: border-box;
+    
+    
+}
 
 .hero img {
     display: block;
-    width: 30%;
+    width: 80%;
     height: auto;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: left;
   }
 
-.hero {
-    position:relative;
-
-}
-h1{
-   font-family: "Inter", sans-serif;
-}
-h1 article {
-    position: absolute;
+.hero p {
+    position:absolute;
+    text-align: center;
+    clear: both;
+    
+    
 
 }
 
-article img{
-    float: right;
-}
 
+section{
+    display: block;
+    clear: both;
+}
 section img{
     display: block;
-    max-width: 500px;
+    max-width: 75%;
     height: auto;
     align-items: center;
-    margin-left: 30%;
+    position:relative;
+    
 }
