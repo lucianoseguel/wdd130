@@ -48,7 +48,7 @@ header img{
     display: block;
     width: 100%;
     height: auto;
-    
+    clear: both;
     position: relative;
     align-items: center;
     margin: 0;
@@ -90,20 +90,22 @@ header img{
 section{
     display: block;
     clear: both;
+    margin-bottom: 5rem;
 }
 section img{
-    display: flex;
+    display:inline-block;
     max-width: 70%;
     height: auto;
     align-items: center;
-    position: relative;
-    
-    
+    position: relative; 
+    float: left;
 }
 
 footer {
-text-align: center;
-
+    
+    text-align: center;
+    display: block;
+    clear: both;
 }
 
 footer img{
