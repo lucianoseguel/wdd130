@@ -1,4 +1,6 @@
 
+/*-----------------------ABOUT US-------------------------*/
+
 /*-------------Import Fonts----------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -26,10 +28,27 @@
     box-sizing: border-box;
 }
 
+nav a {
+    margin: 0px;
+    padding: 1rem;
+    border: 20px, red;
+    
+    background-color: var(--secondary_color--);
+    border-radius: 50px;
+    
+
+}
+.navimg{
+    background-color: var(--primary_color--);
+}
+
 .nav1 {
     display: flex;
     align-items: center;
-    
+    text-align: center;
+    flex-wrap: wrap;
+    flex: 200px;
+    justify-content: space-around;
   }
 
 
