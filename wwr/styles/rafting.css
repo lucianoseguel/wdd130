@@ -32,7 +32,7 @@ nav a {
     margin: 0px;
     padding: 1rem;
     border: 20px, red;
-    
+    border-width: 5px;
     background-color: var(--secondary_color--);
     border-radius: 50px;
     
