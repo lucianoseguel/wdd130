@@ -31,21 +31,19 @@ html{
    
 }
 
-body{
-    align-items: center;
-}
+
 
 /* Class Selectors*/
 .box {
     box-sizing: border-box;
     
     margin: 1rem;
-    clear:both;
+    max-width: 840px;
     padding: 1rem;
     border: 5px;
     background-color:#001f41;
     color: #000;
-    flex-direction:column;
+    flex-direction:row;
   }
 
 ul li {
@@ -99,8 +97,9 @@ h1, h2 {
     font-family: var(--nav_font--);
     font-weight: 100;
     text-align: center;
-    display: block;
+    display: flex;
     margin: 0;
+    justify-content: center;
 }
 
 
@@ -109,11 +108,12 @@ h1, h2 {
 /*-------------------------MAIN-----------------*/
 
 
-main img{
+div img{
     width: 150px;
     float: right;
+    display: inline;
     height: auto;
-    flex-grow: 1;
+    flex-grow: 2;
     margin: 1em;
     padding: 2px;
     box-shadow: 0 0 30px gray;
@@ -122,40 +122,73 @@ main img{
 
 p {
     padding: 10px;
+    margin: 1rem;
+    max-width: 840px;
 }
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+   
+    align-content: center;
+    justify-content: center;
+  }
+
+
 
 main{
-    max-width: 840px;
-    margin: 0,50%,0,100%;
+    display:grid;
+    align-content: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    
+    flex: 1;
+    margin-top: 3rem;
     
     
     
 }
-
 
 
 aside img {
-    
+    display: flex;
     width: 200px;
     height: auto;
-    
+    margin: 2rem;
     float: right;
     
     flex-direction:column;
-    display: flex;
+    
     
 
     
 }
 
 
-
-
+.centre{
+    align-content: center;
+    justify-content: center;
+}
+/*
 div p,aside p {
     
     
-    display: flex;
+    display: grid;
     margin-top: 5em;
+    justify-content: space-between;
+}*/
+
+div img p, aside{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    
 }
 
 
@@ -169,13 +202,13 @@ aside h2 {
 
 
 
-
 /*-------------------------END PAGE-----------------------*/
 
 footer {
     margin-top: 7rem;
     border-top: 1px solid white;
     text-align: center;
-    display:flow-root;
-    clear: right;
+    display:flex;
+    justify-content: space-around;
+    
 }
