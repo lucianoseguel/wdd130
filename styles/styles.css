@@ -123,7 +123,7 @@ p {
     max-width: 840px;
     padding: 1rem;
     border: 5px;
-    background-color:#001f41;
+    background-color:var(--primary_color--);
     color: #000;
     flex-direction:row;
   }
@@ -160,10 +160,9 @@ aside img {
     display: flex;
     width: 200px;
     height: auto;
-    margin: 2rem;
+    margin: 1rem;
     float: right;
     
-   
     
     
 
@@ -188,9 +187,10 @@ div img p, aside img p{
    
     display: flex;
     flex: 1;
-    justify-content:space-evenly;
-    align-items: center;
+   
     flex-direction: row;
+    flex: 1;
+   
     
     
 }
@@ -198,8 +198,10 @@ div img p, aside img p{
 
 aside h2 {
     
-    display:inline-block;
-    clear: right;
+    display:flex;
+    
+    
+    
     
     
 }
