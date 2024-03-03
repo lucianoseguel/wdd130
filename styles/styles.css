@@ -34,12 +34,26 @@ html{
 
 
 /* Class Selectors*/
-
+ul{
+display: grid;
+width: 90x;
+max-width: 840px;
+align-items: center;
+justify-content: space-evenly;
+flex-direction: row;
+}
 ul li {
     margin: 1em;
-    display: block;
-    justify-content: space-between;
+    display: flex;
+
+    flex-direction: column;
     text-align: center;
+    justify-content:space-evenly;
+    border-style: solid;
+    padding: 12px;
+    border-width: 1px;
+    background-color: var(--soft_color--);
+    border-radius: 20px;
     
 }
 /*-----------------------Top of page--------------------*/
