@@ -164,7 +164,9 @@ main{
     clear: both;
     flex: 1;
     margin-top: 3rem;
-    
+    line-height: 1.6;
+    font-family: var(--nav_font--);
+    font-weight: 10;
     
     
 }
