@@ -34,6 +34,7 @@ html{
 
 
 /* Class Selectors*/
+
 ul{
 display: grid;
 width: 90x;
@@ -42,6 +43,8 @@ align-items: center;
 justify-content: space-evenly;
 flex-direction: row;
 }
+
+
 ul li {
     margin: 1em;
     display: flex;
@@ -76,15 +79,11 @@ nav a {
     border-color:  #FF7D00;
     display: flex;
     padding: 20px;
-    text-align: center;    
-    
+    text-align: center;
     margin: 0px;
     border-width:0.01mm;
-    
     flex-grow: 1;
     justify-content: center;
-    
-    
 
 }
 
@@ -168,22 +167,19 @@ main{
     font-family: var(--nav_font--);
     font-weight: 10;
     
-    
 }
 
 
 aside img {
+
     display: flex;
     width: 200px;
     height: auto;
     margin: 1rem;
     float: right;
-    
-    
-    
 
-    
 }
+
 
 
 .centre{
@@ -226,11 +222,16 @@ aside h2 {
 
 /*-------------------------END PAGE-----------------------*/
 
+
+
 footer {
+
     margin-top: 7rem;
     border-top: 1px solid white;
     text-align: center;
     display:flex;
     justify-content: space-around;
-    
+    font-family: var(--nav_font--);
+    font-weight:100;
+
 }
