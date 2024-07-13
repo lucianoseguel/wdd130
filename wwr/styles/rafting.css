@@ -193,8 +193,20 @@ input,label{
 
 }
 
+.radius{
+    display: flex;
+    align-items: center;
+}
 
 
+#map{
+    max-width: 20vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+}
 
 
 
