@@ -211,7 +211,7 @@ div img p, aside img p{
 aside h2 {
     
     display:flex;
-    
+    position: relative;
     
     
     

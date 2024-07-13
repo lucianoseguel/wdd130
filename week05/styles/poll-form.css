@@ -1,0 +1,92 @@
+
+
+:root{
+   
+        --primary_color--: #00264E; 
+        --secondary_color--: #15616D;
+        --ancent_color--: #78290F;
+        --soft_color--: #6FA6CD;
+        --Font--: 'Roboto', sans-serif;
+        --Title_font--:'"Inter", sans-serif';
+        --nav_color--: #FFECD1;
+        --nav_font--: "DM Sans", sans-serif;
+
+    }
+
+    *{
+        font-family: var(--nav_font--);
+        box-sizing: border-box;
+        color: black;
+    }
+
+
+body{
+    background-color: var(--soft_color--);
+}
+
+#titlename{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/*form design*/
+
+form{
+    display: block;
+    width: 40vw;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+  
+}
+
+legend{
+    font-size: larger;
+    color: var(--primary_color--);
+}
+
+.formdetails{
+    border-radius: 10px;
+    line-height: 20px;
+}
+
+#formname{
+   display: flex;
+   justify-content: start;
+   text-align: end;
+
+
+}
+
+input,#browser,textarea{
+    border-radius: 3px;
+    border: 0;
+    background-color: beige;
+
+}
+
+
+/*submit button*/
+
+/*button inside box*/
+#submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+}
+
+#submitbutton{
+   
+    padding: 2px 15px;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+

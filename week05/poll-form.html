@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  WDD 130 | Your Name | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+    <header>
+        <h1 id="titlename">WDD 130 | Your Name | HTML Form - User Poll</h1>
+      </header>
+      <main>
+        <form>
+            <fieldset id="formname" class="formdetails">
+              <legend >Contact Information</legend>
+              <!-- form elements will go here -->
+               <div id="form1">
+              <label for="fullname">Full Name:</label>
+              <input type="text" id="fullname" name="fullname" required><br><br>
+              <label for="useremail">Email:</label>
+              <input type="email" id="useremail" name="useremail" required>
+            </div>
+            </fieldset>
+            <fieldset  class="formdetails">
+              <legend>Questions</legend>
+              <!-- form elements will go here -->
+               <div>
+              <label for="browser">What is your favorite internet browser?</label>
+              <select id="browser" name="browser" required>
+                
+                <option value="selec">--Select one--</option>
+                <option value="chrome">Chrome</option>
+                <option value="firefox">Firefox</option>
+                <option value="safari">Safari</option>
+                <option value="edge">Edge</option>
+                <option value="brave">Brave</option>
+                <option value="other">Other</option>
+              </select>
+              <br><br>
+              <label for="pet">Do you have a household pet?</label>
+              <input type="checkbox" id="pet" name="pet"><br><br>
+              <label for="feedback">List the places you have lived:</label><br><br>
+              <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali" required></textarea> <br><br>
+              </div>
+              
+              
+            
+            </fieldset><br>
+            <div id="submit">
+            <button type="submit" id="submitbutton">Submit poll</button>
+        </div>
+
+          </form>
+      </main>
+      <footer>
+        <p>©2024 | HTML Form - User Poll Activity | Your Name</p>
+      </footer>
+</body>
+</html>
