@@ -132,7 +132,7 @@ section{
     gap: 150px;
     grid-template-rows: 200px  ;
     grid-template-columns: 200px 200px ;
-
+    
 }
 
 section img{
@@ -153,6 +153,15 @@ form{
 .formdetails{
     margin: auto;
     max-width: 30vw;
+    border-radius: 5px;
+
+    
+}
+
+
+legend{
+    font-size: x-large;
+    padding: 10px;
 }
 
 input{
