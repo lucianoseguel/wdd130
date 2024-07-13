@@ -110,19 +110,85 @@ header img{
 }
 /*-------------Section CSS----------*/
 
-section{
+
+h2{
     display: block;
+    width: 100vw;
+    height: 30px;
+    margin: 0;
+    padding: -110px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
     clear: both;
     margin-bottom: 5rem;
 }
+
+.raftimages{
+    display: grid;
+    grid-auto-flow: row;
+    gap: 150px;
+    grid-template-rows: 200px  ;
+    grid-template-columns: 200px 200px ;
+
+}
+
 section img{
-    display:block;
-    max-width: 70%;
+    display:flex;
+    max-width: 15vw;
     height: auto;
-    align-items: center;
+    object-fit: cover;
+    grid-auto-flow: row;
+    
     position: relative; 
     float: none;
 }
+
+form{
+    margin-top: 5rem;
+}
+
+.formdetails{
+    margin: auto;
+    max-width: 30vw;
+}
+
+input{
+    background-color: beige;
+    border: 0;
+    border-radius: 5px;
+    color: black;
+    height:30px;
+    font-size: larger;
+    padding: 10px;
+}
+
+input,label{
+    margin-bottom: 7px;
+}
+
+#submit{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#submitbutton{
+    padding: 5px 10px;
+    border: 0;
+    background-color: var(--secondary_color--);
+    border-radius: 5px;
+    font-size: larger;
+
+}
+
+
+
+
+
+
 /*-------------Footer CSS----------*/
 footer {
     
