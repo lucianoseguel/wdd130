@@ -26,15 +26,17 @@ header{
 nav{
     display: flex;
     flex-direction: row;
-   
+   background-color: #333;
     justify-content: center;
     gap: 2em;
+    padding: 1px;
     
 }
 
 nav a{
     color: whitesmoke;
     padding: 3px 5px;
+    display: block;
 }
 
 nav a:hover{
@@ -56,9 +58,14 @@ main{
     flex-direction: column;
 }
 
-main img{
+img{
     max-width: 200px;
+    height: auto;
     margin: auto;
+    border: none;
+    border-radius: 5%;
+    padding: 2px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 aside{
@@ -73,11 +80,7 @@ aside{
 
 }
 
-aside img {
-  width: 200px;
-  height: auto;
-  margin:auto;
-}
+
 
 p { padding: 0;}
 
