@@ -166,6 +166,7 @@ header nav a:hover{
     flex-wrap: wrap;
     color: var(--indigo-dye);
     font-family: var(--main-font);
+    justify-content: space-evenly;
     
 }
 
@@ -182,6 +183,24 @@ header nav a:hover{
     object-fit: cover;
     padding: 1em;
     margin: auto;
+}
+
+figure{
+    position: relative;
+    justify-items: center;
+    overflow: hidden;
+}
+
+figcaption{
+    position: absolute;
+    bottom: 2rem;
+    left: 3rem;
+    background-color: var(--indigo-dye);
+    color: var(--white);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    
 }
 
 /***** End Adventure block *****/
