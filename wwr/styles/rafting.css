@@ -193,6 +193,7 @@ figure{
 
 figcaption{
     position: absolute;
+    border-radius: 10px;
     bottom: 2rem;
     left: 3rem;
     background-color: var(--indigo-dye);
