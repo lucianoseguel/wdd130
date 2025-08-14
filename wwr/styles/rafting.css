@@ -19,9 +19,12 @@
 *{
    
     text-decoration: none;
+    font-family: var(--main-font);
 
 }
-
+html{
+    overflow-x: hidden;
+}
 body,main{
     padding: 0;
     margin:0;
@@ -111,16 +114,34 @@ header nav a:hover{
 .heroimg{
     width: 100vw;
     height: auto;
+    object-fit:fill;
+}
 
+.hero-img-container{
+    height: 60vh;
+    overflow: hidden;
 }
 
 .hero-section{
-    
+
  position: absolute;  
  bottom: 80px;
  padding: 0 4em;
  background-color: var(--primary-font);
 
+}
+
+.hero-section-contact{
+    
+    position: absolute;  
+    display: flex;
+    flex-direction: row;
+ top: 30vh;
+ padding: 0 4em;
+ border-radius: 5px;
+ background-color: white;
+ gap: 1rem;
+ height: 30vh;
 }
 
 .hero-client-img{
@@ -139,7 +160,70 @@ header nav a:hover{
  font-family: var(--main-font);
     color: var(--color1);
 }
+
+.hero-fig{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    height: 12rem;
+    border: gray solid 1px;
+    padding: 1em 2em;
+    justify-items:center;
+    border-bottom: none;
+    background-color: var(--indigo-dye);
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.hero-fig-text{
+    font-size: larger;
+    font-family: var(--main-font);
+    max-width: 80%;
+    margin: auto;
+}
+
+.buttons{
+    padding: 0.5em 1em;
+    margin: auto;
+    background-color: var(--color-2);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    
+}
 /***** End Hero *****/
+
+
+/***** contact block *****/
+
+.contact-section{
+justify-items: center;
+max-width: 40vw;
+padding: 2rem;
+}
+
+#contact-info{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 10% auto;
+}
+
+
+.contact-section div img{
+    max-width: 32px;
+
+}
+
+#contact-global{
+    display: flex;
+}
+
+  /***** End contact block *****/
 
 
 /***** History block *****/ 
@@ -210,6 +294,7 @@ figcaption{
 /***** Footer *****/ 
 
 footer{
+    position:relative;
     background-color: var(--color1);
     padding: 1em;
     justify-items: center;
