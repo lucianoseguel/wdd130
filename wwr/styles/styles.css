@@ -230,12 +230,14 @@ h2{
     max-width: 80vw;
     margin: auto;
     
+    
 }
 
 .trips-sections div{
     justify-content: center;
     display: flex;
     flex-direction: column;
+    margin-bottom: 6em;
     
 }
 
@@ -243,6 +245,7 @@ h2{
 .trips-sections p{
     padding: 2rem;
     font-size: larger;
+
 }
 
 .trips-sections a{
@@ -261,7 +264,9 @@ h2{
 
 .trips-sections img{
     height: 500px;
-    border-radius: 30px;
+    border-radius: 30px; 
+
+    
 }
 
 .trips{
