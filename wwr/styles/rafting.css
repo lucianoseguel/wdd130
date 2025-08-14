@@ -335,8 +335,31 @@ figcaption{
 /***** End Adventure block *****/
 
 /***** form block *****/
+.form-section{
+    display: block;
+    margin: auto;
+    justify-items: center;
+    
+}
 
+form{
+    
+    margin: auto;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    
+}
 
+input{
+    padding: 0.5em;
+}
+
+label, fieldset div{
+    margin-top: 1em;
+}
 
 /***** End form block *****/
 
