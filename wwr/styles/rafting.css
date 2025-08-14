@@ -361,6 +361,12 @@ input{
 label, fieldset div{
     margin-top: 1em;
 }
+#submit-button{
+    margin: 1em;
+    padding: 0.5em;
+    max-width: 40%;
+    
+}
 
 /***** End form block *****/
 
