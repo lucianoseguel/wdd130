@@ -225,7 +225,49 @@ padding: 2rem;
 
   /***** End contact block *****/
 
+/***** OUR TEAM *****/ 
 
+
+.employees-section-h2{
+text-align: center;
+margin-top: 3em;
+}
+
+
+.employees-section{
+padding: 50px;
+display: flex;
+flex-wrap:nowrap;
+flex-direction: row;
+margin: auto;
+justify-content: center;
+}
+
+
+.employees-section figure{
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-items: center;
+background-color: var(--color-2);
+padding: 2em;
+max-width: 200px;
+color: white;
+border-radius: 40px;
+
+}
+
+.employee-img{
+    width: 200px;
+    margin: auto;
+    border-radius: 40px;
+}
+
+ /***** End OUR TEAM *****/
+
+
+
+ 
 /***** History block *****/ 
 
 .history-section{
