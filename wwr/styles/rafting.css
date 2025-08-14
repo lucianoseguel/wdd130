@@ -241,6 +241,7 @@ flex-wrap:nowrap;
 flex-direction: row;
 margin: auto;
 justify-content: center;
+margin-bottom: 3em;
 }
 
 
@@ -267,7 +268,7 @@ border-radius: 40px;
 
 
 
- 
+
 /***** History block *****/ 
 
 .history-section{
@@ -333,6 +334,13 @@ figcaption{
 
 /***** End Adventure block *****/
 
+/***** form block *****/
+
+
+
+/***** End form block *****/
+
+
 /***** Footer *****/ 
 
 footer{
@@ -340,6 +348,10 @@ footer{
     background-color: var(--color1);
     padding: 1em;
     justify-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 .socialmedia{
