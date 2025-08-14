@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Noto+Sans+TC:wght@100..900&display=swap');
+
+
+:root{
+    
+    --color1: #353535ff;
+--color-2: #3c6e71ff;
+--white: #ffffffff;
+--primary-font: #d9d9d9ff;
+--indigo-dye: #284b63ff;
+
+--main-font: 'Inter', sans-serif;
+}
+
+
+
+
+
+*{
+   
+    text-decoration: none;
+    font-family: var(--main-font);
+    
+
+}
+html{
+    overflow-x: hidden;
+}
+body,main{
+    padding: 0;
+    margin:0;
+
+
+}
+
+
+nav, header{
+    max-width: 100vw;
+    height: 8vh;
+    align-items: center;
+    padding: 1em;
+    
+}
+
+header{
+    background-color: #333;
+    height: 8vh;
+    display: grid;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+   background-color: #333;
+    justify-content: center;
+    gap: 2em;
+    padding: 1px;
+    align-items: center;
+   
+    
+}
+
+header nav img{
+    max-height: 6vh  ;
+    background-color: #d9d9d9ff;
+    padding: 10px;
+    border-radius: 50%;
+    overflow: visible;
+
+}
+
+header nav a{
+    color: var(--primary-font);
+    padding: 3px 5px;
+    display: block;
+    height: 4vh;
+    align-content: center;
+    font-family: var(--main-font);
+}
+
+header nav a:hover{
+    background-color: whitesmoke;
+    color: #333;
+    border-radius: 10%;
+    transition: 0.2s ease-in-out;
+
+}
+
+/***** Hero *****/ 
+
+.hero{
+    justify-items: center;
+    max-width: 100vw;
+    position: relative;
+    margin: 0;
+}
+
+.hero-title{
+    position: absolute;
+    top: 0px;
+    padding: 2rem;
+    width: 100vw;
+    color: var(--primary-font);
+    font-size: 3em;
+    font-family: var(--main-font);
+    text-align: center;
+    background-color: var(--indigo-dye) ;
+    opacity: 0.9;
+    font-weight: 500;
+    
+  
+}
+
+.heroimg{
+    width: 100vw;
+    height: auto;
+    object-fit:fill;
+}
+
+.hero-img-container{
+    height: 60vh;
+    overflow: hidden;
+}
+
+.hero-section{
+
+ position: absolute;  
+ bottom: 80px;
+ padding: 0 4em;
+ background-color: var(--primary-font);
+
+}
+
+.hero-section-contact{
+    
+    position: absolute;  
+    display: flex;
+    flex-direction: row;
+ top: 30vh;
+ padding: 0 4em;
+ border-radius: 5px;
+ background-color: white;
+ gap: 1rem;
+ height: 30vh;
+}
+
+.hero-client-img{
+
+    float: left;
+    max-width: 20vw;
+    border: var(--indigo-dye) 3px solid;
+    border-radius: 5px;
+    margin: 1em;
+}
+
+.hero-client-text{
+    padding: 3%;
+    margin: 1em;
+    font-size: x-large;
+ font-family: var(--main-font);
+    color: var(--color1);
+}
+
+.hero-fig{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    height: 12rem;
+    border: gray solid 1px;
+    padding: 1em 2em;
+    justify-items:center;
+    border-bottom: none;
+    background-color: var(--indigo-dye);
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.hero-fig-text{
+    font-size: larger;
+    font-family: var(--main-font);
+    max-width: 80%;
+    margin: auto;
+}
+
+.buttons{
+    padding: 0.5em 1em;
+    margin: auto;
+    background-color: var(--color-2);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    
+}
+/***** End Hero *****/
+
+
+/***** The mission *****/ 
+.mission-section{
+    max-width: 80vw;
+    margin: auto;
+    text-align: center;
+    justify-items: center;
+
+    margin-top: 3rem;
+    
+}
+
+.mission-section p{
+    max-width: 30vw;
+    font-size: larger
+}
+
+/***** End The mission *****/
+
+/***** Trips-section *****/ 
+h2{
+    text-align: center;
+}
+
+
+.trips-sections{
+    display: flex;
+    flex-direction: row;
+    max-width: 80vw;
+    margin: auto;
+    
+}
+
+.trips-sections div{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.trips-sections p{
+    padding: 2rem;
+    font-size: larger;
+}
+
+.trips-sections a{
+    margin: auto;
+    font-size: larger;
+    border: none;
+    padding: 1em;
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: white;
+    color: var(--color1);
+
+
+}
+
+
+.trips-sections img{
+    height: 500px;
+    border-radius: 30px;
+}
+
+.trips{
+    background-color: var(--indigo-dye);
+    padding: 2em;
+    color: white;
+    
+}
+
+
+/***** End Trips-section *****/
+
+
+/***** testimonies *****/ 
+
+.testimony-section{
+    max-width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    gap: 4em;
+}
+
+.testimony-section figure{
+    display: flex;
+    max-width: 200px;
+    flex-direction: column;
+    justify-items: center;
+    background-color: var(--color1);
+    padding: 2em;
+    border-radius: 40px;
+
+    
+}
+
+.testimony-section figure img{
+    margin: auto;
+    width: 100px;
+    border-radius: 40px;
+}
+
+.testimony-section figure p{
+    display: flex;
+    color: white;
+}
+
+
+
+/***** End testimonies *****/
+
+
+
+/***** Adventure block *****/ 
+.adventure-section{
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--indigo-dye);
+    font-family: var(--main-font);
+    justify-content: space-evenly;
+    
+}
+
+.adventure-section h2{
+    display: block;
+    text-align: center;
+    flex-grow: 1;
+    width: 100vw;
+}
+
+.adventure-section img{
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding: 1em;
+    margin: auto;
+}
+
+figure{
+    position: relative;
+    justify-items: center;
+    overflow: hidden;
+}
+
+figcaption{
+    position: absolute;
+    border-radius: 10px;
+    bottom: 2rem;
+    left: 3rem;
+    background-color: var(--indigo-dye);
+    color: var(--white);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+/***** End Adventure block *****/
+
+/***** form block *****/
+.form-section{
+    display: block;
+    margin: auto;
+    justify-items: center;
+    
+}
+
+form{
+    
+    margin: auto;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding: 1em;
+    
+}
+
+input{
+    padding: 0.5em;
+}
+
+label, fieldset div{
+    margin-top: 1em;
+}
+#submit-button{
+    margin: 1em;
+    padding: 0.5em;
+    max-width: 40%;
+    
+}
+
+/***** End form block *****/
+
+
+/***** Footer *****/ 
+
+footer{
+    position:relative;
+    background-color: var(--color1);
+    padding: 1em;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.socialmedia{
+    padding: 1em;
+    align-content: center;
+    
+    
+}
+
+.socialmedia img{
+    max-width: 50px;
+    height: 50px;
+}
+
+/***** End Footer *****/
+
